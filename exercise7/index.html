@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="el">
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="scripts.js"></script>
+        
+	    <title>Alan Matheson Turing</title>
+	
+		
+    </head>
+
+    <body onload="AlertFunc(); DateFunc();">
+        <div class="grid-container">
+            <div class="header">
+                <div class="logo"><img src="image1.jpg" alt="TuringLogo" ></div>
+                <ul id="menu">
+                    <li><a href="index.html">Alan Turing</a></li>
+                    <li><a href="T_Machine.html">Turing Machine</a></li>
+                    <li><a href="T_Test.html">Turing Test</a></li>
+                </ul>
+                <div class="logo1"><img src="image1.jpg" alt="TuringLogo"></div>
+            </div>
+            <div class="MainTitle">
+                <h1>Η Ζωή του Άλαν Τούρινγκ</h1>
+                <div class="buttons" style="margin-left: auto;">
+                    <button class="JsButt" id="NightM" onclick="NightModeFunc()" >Night Mode</button>
+                    <button class="JsButt" id="ZoomIn" onclick="ZoomFunc()">Zoom In</button>
+                </div>
+            </div>
+            <section class=columns>
+                <div class="columnFact">
+                    <h2 id="Dailyheader">Daily Fact</h2>
+                    <p id="DailyFact"> 
+                        Today's Fact
+                    </p>
+                </div>
+                <div class="columnText" onmouseup="HighlightFunc()">
+                    <h4>Το εργο του</h4>
+                    <p>
+                        Ο Άλαν Μάθισον Τούρινγκ ή Τιούρινγκ ήταν Άγγλος μαθηματικός, καθηγητής της λογικής, κρυπτογράφος και θεωρητικός βιολόγος.
+                        Θεωρείται «πατέρας της επιστήμης υπολογιστών», χάρη στην πολύ μεγάλη συνεισφορά του στο γνωστικό πεδίο της θεωρίας υπολογισμού κατά τη 
+                        δεκαετία του 1930 αλλά και της τεχνητής νοημοσύνης, χάρη στο λεγόμενο τεστ Τούρινγκ. Το έργο του από τη δεκαετία του '30 προσέδωσε στην ως
+                        τότε άτυπη έννοια του αλγορίθμου μία επίσημη, αυστηρή μαθηματική διατύπωση μέσω της λεγόμενης Μηχανής Τούρινγκ. 
+                    </p>
+                    <h4>Ο Πόλεμος</h4>
+                    <p>
+                        Οι επιστημονικές συνεισφορές του Τούρινγκ κατά τη διάρκεια του Β' Παγκοσμίου Πολέμου δεν αναγνωρίστηκαν ποτέ δημόσια κατά τη διάρκεια της ζωής του
+                        επειδή η εργασία του ήταν απόρρητη. Στο Μπλέτσλεϊ Παρκ (Bletchley Park), κέντρο της Βρετανικής Υπηρεσίας Αντικατασκοπείας, ήταν το κεντρικό πρόσωπο 
+                        στην αποκρυπτογράφηση των γερμανικών στρατιωτικών κωδικών, όντας ο προϊστάμενος της Ομάδας 8. Η ομάδα αυτή ήταν που επιφορτίστηκε με την αποκωδικοποίηση
+                        της γερμανικής κρυπτογραφικής συσκευής Enigma.
+                    </p>
+                    <h4>Τα τελευταία χρόνια</h4>
+                    <p>
+                        Μετά τον Πόλεμο, σχεδίασε έναν από τους πρώτους ηλεκτρονικούς προγραμματίσιμους ψηφιακούς υπολογιστές στο Εθνικό Φυσικό Εργαστήριο, 
+                        όπως λεγόταν, και κατασκεύασε μια δεύτερη υπολογιστική μηχανή στο Πανεπιστήμιο του Μάντσεστερ. Ο Τούρινγκ πέθανε το 1954, 16 μέρες πριν 
+                        τα 42α γενέθλιά του από δηλητηρίαση από κυάνιο. Έρευνα προσδιόρισε το θάνατό ως αυτοκτονία, αλλά είναι γνωστό ότι τα στοιχεία επίσης στηρίζουν
+                        την πιθανότητα τυχαίας δηλητηρίασης. Το Βραβείο Τούρινγκ, η ύψιστη επιστημονική διάκριση στον χώρο της πληροφορικής από το 1966 κι έπειτα, 
+                        ονομάστηκε έτσι προς τιμήν του.
+
+                    </p>
+                </div>
+
+                <div class="column">
+                    <p class="Im_Tur"><img src="image2.jpg" alt="AlanTuring" style="width:auto;"></p>
+                    <p class="Im_Tur"><img src="image3.jpg" alt="Enigma" style="width:auto;"></p>
+                </div>  
+            </section>
+            <div class="footer">
+                <p>
+                    &copy;2020 <abbr title="Τεχνολογίες και Προγραμματισμός Εφαρμογών στον Ιστό">Τ.Π.Ε.Ι</abbr>
+                    &bull; Posted by:George Sigas
+                    &bull; All Rights Reserved:George Sigas
+                </p>
+            </div>
+        </div>
+    </body> 
+</html>

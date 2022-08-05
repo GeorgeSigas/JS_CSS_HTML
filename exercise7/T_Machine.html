@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="el">
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="scripts.js"></script>
+	    <title>Turing Machine</title>
+	
+		
+    </head>
+
+    <body onload="DateFunc()">
+        <div class="grid-container">
+            <div class="header">
+                <div class="logo"><img src="image1.jpg" alt="TuringLogo" ></div>
+                <ul>
+                    <li><a href="index.html">Alan Turing</a></li>
+                    <li><a href="T_Machine.html">Turing Machine</a></li>
+                    <li><a href="T_Test.html">Turing Test</a></li>
+                  </ul>
+                <div class="logo1"><img src="image1.jpg" alt="TuringLogo" ></div>
+            </div>
+            <div class="MainTitle">
+                <h1>Η Μηχανή του Τούρινγκ</h1>
+                <div class="buttons" style="margin-left: auto;">
+                    <button class="JsButt" id="NightM" onclick="NightModeFunc()" >Night Mode</button>
+                    <button class="JsButt" id="ZoomIn" onclick="ZoomFunc()">Zoom In</button>
+                </div>
+            </div>
+            <section class=columns>
+                <div class="columnFact">
+                    <h2 id="Dailyheader">Daily Fact</h2>
+                    <p id="DailyFact"> 
+                        Today's Fact
+                    </p>
+                </div>
+                <div class="columnText" onmouseup="HighlightFunc()">
+                    <h4>Τι είναι μια μηχανή Τούρινγκ;</h4>
+                    <p>
+                        Η Μηχανή Τούρινγκ είναι μια υποθετική συσκευή η οποία χειρίζεται σύμβολα σύμφωνα με ένα σύνολο κανόνων. 
+                        Παρά την απλότητά της, μια τέτοια μηχανή μπορεί να προσαρμοστεί ώστε να προσομοιώνει την λογική οποιουδήποτε αλγορίθμου,
+                        και είναι ιδιαίτερα χρήσιμη στο να εξηγεί τις λειτουργίες μιας κεντρικής μονάδας επεξεργασίας στο εσωτερικό του υπολογιστή.
+                    </p>
+                    <h4>Πιο συγκεκριμένα</h4>
+                    <p>
+                        Mια Μηχανή Τούρινγκ αποτελείται από:
+                    </p>
+                    <ol>
+                    <li>	Μία ταινία που χωρίζεται σε κελιά, το ένα δίπλα στο άλλο. Κάθε κελί περιέχει ένα σύμβολο από ένα πεπερασμένο αλφάβητο. </li>
+                    <li>	Μία κεφαλή που μπορεί να διαβάζει και να γράφει σύμβολα πάνω στην ταινία και που μπορεί να μετακινεί την ταινία κατά ένα 
+                        (και μόνο ένα) κελί κάθε φορά. Σε μερικά μοντέλα κινείται μόνο η κεφαλή, ενώ η ταινία παραμένει σταθερή.</li>
+                    <li>	Ένα μητρώο καταστάσεων που αποθηκεύει μία κατάσταση της Μηχανής Τουρινγκ, μία από ένα πεπερασμένο πλήθος. Ανάμεσα σε αυτές είναι 
+                        η ειδική αρχική κατάσταση με την οποία ξεκινά το μητρώο. Αυτές οι καταστάσεις, γράφει ο Τούρινγκ, αντικαθιστούν την "πνευματική κατάσταση" 
+                        στην οποία αρχικά θα ήταν το άτομο που θα έκανε τους υπολογισμούς.</li>
+                    <li>	Ένας πεπερασμένος πίνακας από οδηγίες όπου, δεδομένης της κατάστασης  στην όποια βρίσκεται αυτή τη στιγμή η μηχανή,
+                        και το σύμβολο που διαβάζεται στην ταινία (το σύμβολο που βρίσκεται εκείνη τη στιγμή κάτω από την κεφαλή) ορίζει στη
+                        μηχανή να κάνει καποια λειτουργία(απαλειφή,καταγραφή ή/και μετακίνηση κεφαλής)</li>
+                    </ol>
+                </div>
+
+                <div class="column">
+                    
+                    <picture>
+                        <source media="(min-width:570px)" srcset="image4.1.jpg">
+                        <img src="image4.jpg" alt="TuringMachine" style="width:auto;">
+                    </picture>
+                    <p class="Im_Tur"><img src="image5.png" alt="MachineInUse" style="width:auto;"></p>
+                </div>  
+            </section>
+            <div class="footer">
+                <p>
+                    &copy;2020 <abbr title="Τεχνολογίες και Προγραμματισμός Εφαρμογών στον Ιστό">Τ.Π.Ε.Ι</abbr>
+                    &bull; Posted by:George Sigas
+                    &bull; All Rights Reserved:George Sigas
+                </p>
+            </div>
+        </div>
+    </body> 
+</html>

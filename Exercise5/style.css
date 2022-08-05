@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "MyFont";
+    src: url('Cardo-Regular.ttf')  format('truetype');
+    
+  }
+* { box-sizing: border-box; }
+
+body {
+    background-color: #eee;
+    color: #434344;
+    font-family: "Montserrat", sans-serif;
+    line-height:1.4;
+    height:100%;
+
+  }
+
+.grid-container {
+	padding: 1em;
+	max-width: 1285px;
+	width: 95%;
+	margin: 1% auto;
+}
+.header{
+    color: #9f9c9c;
+    text-transform: uppercase;
+    border-bottom: 2px solid #b0e0ea;
+    padding: 1%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-flow:column nowrap;
+    
+}
+.header ul {
+    display: flex;
+    list-style-type: none;
+    
+    
+    
+}
+.header li {
+    font-size:150%;
+    margin-right: 10%;
+}
+.header a{
+    text-decoration: none;
+
+}
+.header img{
+    max-width: 100%;
+    margin-left: 24%;
+    width:50%;
+}
+a:link {
+    color: #646464;
+  }
+  
+
+  a:visited {
+    color: #646464;
+  }
+  
+
+  a:hover {
+    color: #979797;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #646464;
+  }
+
+
+.MainTitle{
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+.column {
+	flex: 1;
+	margin: 2px;
+    padding: 10px;
+    
+}
+.column img{
+    max-width: 100%;
+    min-width: 400px;
+    
+}
+.columnText {
+	flex: 1;
+	margin: 2px;
+    padding: 10px;
+    
+}
+h4{
+    font-size: 150%;
+    font-family: "MyFont";   
+}
+.columnText p{
+    line-height: 300%;
+    border-top: 2px solid  #646464;
+    margin-bottom: 3%;
+    min-width: 300px;
+    
+    
+}
+.columnText li{
+    margin-bottom: 3%;
+    margin-left:1%;
+}
+.footer{
+    grid-column:1/4;
+    font-size:70%;
+
+}
+.footer p {
+    border-top:1px solid #646464;
+    color:#646464;
+    text-align:center;
+    
+}
+abbr{
+cursor: help;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .header li{
+        font-size: 100%;
+
+    }
+    .MainTitle{
+        text-align: center;
+    }
+    .columnText p
+    {
+        line-height: 150%;
+        
+    }
+  
+    
+    
+  }
+
